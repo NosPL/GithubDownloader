@@ -13,7 +13,7 @@ public class Main {
         GithubClient githubClient = new GithubClient();
         githubClient.downloadCommits()
                 .fromOwner("owner")
-                .fromRepo("repo")
+                .fromRepo("sada")
                 .toFile(file)
                 .madeBy("committer")
                 .base64Credentials("encodedUser:encodedPassword")
